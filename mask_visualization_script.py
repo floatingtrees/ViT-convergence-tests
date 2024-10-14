@@ -1,4 +1,4 @@
-from vit import ViT
+from vit_visualization import ViT
 import torch
 import torchvision.transforms as transforms
 from PIL import Image
@@ -23,7 +23,7 @@ inverse_transform = transforms.Compose([
 ])
 model = ViT(
     image_size = (512, 512),
-    patch_size = 128,
+    patch_size = 32,
     num_classes = 1000,
     dim = 1024,
     depth = 3,

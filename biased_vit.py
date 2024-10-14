@@ -47,7 +47,7 @@ class Attention(nn.Module):
             nn.Dropout(dropout)
         ) if project_out else nn.Identity()
 
-    def forward(self, x):
+    def forward(self, x, mask):
         x = self.norm(x)
 
         qkv = self.to_qkv(x).chunk(3, dim = -1)
@@ -55,7 +55,7 @@ class Attention(nn.Module):
 
         dots = torch.matmul(q, k.transpose(-1, -2)) * self.scale
 
-        attn = self.attend(dots)
+        attn = self.attend(dots + mask)
         attn = self.dropout(attn)
 
         out = torch.matmul(attn, v)
@@ -73,9 +73,9 @@ class Transformer(nn.Module):
                 FeedForward(dim, mlp_dim, dropout = dropout)
             ]))
 
-    def forward(self, x):
+    def forward(self, x, mask):
         for attn, ff in self.layers:
-            x = attn(x) + x
+            x = attn(x, mask = mask) + x
             x = ff(x) + x
 
         return self.norm(x)
@@ -116,48 +116,32 @@ class ViT(nn.Module):
         self.mlp_head = nn.Linear(dim, num_classes)
 
 
-    def generate_attention_mask(self, sequence_length, mask_constant):
-        mask = torch.zeros((1, sequence_length, sequence_length))
+    def generate_attention_mask(self, sequence_length, mask_constant, device = "cpu"):
+        mask = torch.zeros((1, sequence_length, sequence_length), device = device)
         mask.fill_(mask_constant)
         indices = torch.arange(sequence_length)
         num_offset_height_patches = self.image_width // self.patch_width
         mask[0, indices, indices] = 0
         mask[0, indices[:-1] + 1, indices[:-1]] = 0 # attends to the patch on the left
         mask[0, indices[1:] - 1, indices[1:]] = 0 # attends to the patch on the right
-        mask[0, indices[num_offset_height_patches:] - num_offset_height_patches, indices[num_offset_height_patches:]] = 0 # attend to the token on top
-
-
+        mask[0, indices[num_offset_height_patches:] - num_offset_height_patches, indices[num_offset_height_patches:]] = 0 # attends to the one on top
+        mask[0, indices[num_offset_height_patches - 1:] - num_offset_height_patches + 1, indices[num_offset_height_patches - 1:]] = 0 # top right
+        mask[0, indices[num_offset_height_patches + 1:] - num_offset_height_patches - 1, indices[num_offset_height_patches + 1:]] = 0
         mask[0, indices[:-num_offset_height_patches] + num_offset_height_patches, indices[:-num_offset_height_patches]] = 0 # attend to the bottom token
-        mask[0, indices[:-num_offset_height_patches + 1] + num_offset_height_patches - 1, indices[:-num_offset_height_patches + 1]]
+        mask[0, indices[:-num_offset_height_patches + 1] + num_offset_height_patches - 1, indices[:-num_offset_height_patches + 1]] = 0 # bottom left
         mask[0, indices[:-num_offset_height_patches - 1] + num_offset_height_patches + 1, indices[:-num_offset_height_patches - 1]] = 0 # bottom right
-
-        print(mask)
         return mask
 
 
 
     def forward(self, img, mask_constant = float('-inf')): # mask constant is what we set the mask to
-        
         b, c, h, w = img.shape
         if h != self.image_height or w != self.image_width or c != self.channels:
             raise AssertionError("Height, width, or num_channels does not match")
         img = self.pre_to_patch_embedding(img)
         batch_size, sequence_length, features = img.shape
         mask = self.generate_attention_mask(sequence_length, mask_constant)
-        mask = torch.softmax(mask, dim = -1)
-        img = torch.matmul(mask, img)
-        
-        img = self.unpatchify(img)
-        inverse_transform = transforms.Compose([
-            transforms.ToPILImage(),
-        ])
-        
-        thingy = inverse_transform(img[0, :, :, :])
-        thingy.save("View.jpg")
-        exit()
-        inverse_transform = transforms.Compose([
-            transforms.ToPILImage(),
-        ])
+
         x = self.to_patch_embedding(img)
         b, n, _ = x.shape
 
@@ -166,7 +150,7 @@ class ViT(nn.Module):
         x += self.pos_embedding[:, :(n + 1)]
         x = self.dropout(x)
 
-        x = self.transformer(x)
+        x = self.transformer(x, mask = mask)
 
         x = x.mean(dim = 1) if self.pool == 'mean' else x[:, 0]
 
