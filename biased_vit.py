@@ -54,8 +54,10 @@ class Attention(nn.Module):
         q, k, v = map(lambda t: rearrange(t, 'b n (h d) -> b h n d', h = self.heads), qkv)
 
         dots = torch.matmul(q, k.transpose(-1, -2)) * self.scale
-
-        attn = self.attend(dots + mask)
+        if mask is not None:
+            attn = self.attend(dots + mask)
+        else:
+            attn = self.attend(dots)
         attn = self.dropout(attn)
 
         out = torch.matmul(attn, v)
@@ -74,7 +76,9 @@ class Transformer(nn.Module):
             ]))
 
     def forward(self, x, mask):
-        for attn, ff in self.layers:
+        for i, (attn, ff) in enumerate(self.layers):
+            if i == len(self.layers) - 1:
+                mask = None
             x = attn(x, mask = mask) + x
             x = ff(x) + x
 
@@ -140,7 +144,7 @@ class ViT(nn.Module):
             raise AssertionError("Height, width, or num_channels does not match")
         img = self.pre_to_patch_embedding(img)
         batch_size, sequence_length, features = img.shape
-        mask = self.generate_attention_mask(sequence_length, mask_constant)
+        mask = self.generate_attention_mask(sequence_length + 1, mask_constant)
 
         x = self.to_patch_embedding(img)
         b, n, _ = x.shape

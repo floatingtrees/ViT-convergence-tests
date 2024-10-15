@@ -127,8 +127,6 @@ class ViT(nn.Module):
         mask[0, indices[num_offset_height_patches:] - num_offset_height_patches, indices[num_offset_height_patches:]] = 0 # attends to the one on top
         mask[0, indices[num_offset_height_patches - 1:] - num_offset_height_patches + 1, indices[num_offset_height_patches - 1:]] = 0 # top right
         mask[0, indices[num_offset_height_patches + 1:] - num_offset_height_patches - 1, indices[num_offset_height_patches + 1:]] = 0
-        
-
         mask[0, indices[:-num_offset_height_patches] + num_offset_height_patches, indices[:-num_offset_height_patches]] = 0 # attend to the bottom token
         mask[0, indices[:-num_offset_height_patches + 1] + num_offset_height_patches - 1, indices[:-num_offset_height_patches + 1]] = 0 # bottom left
         mask[0, indices[:-num_offset_height_patches - 1] + num_offset_height_patches + 1, indices[:-num_offset_height_patches - 1]] = 0 # bottom right
