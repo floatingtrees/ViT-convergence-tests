@@ -13,8 +13,3 @@ class Scheduler:
         value = self.norm_factor * (1 - percentage_done)
         return transformation(value) * self.first_finite
 
-
-scheduler = Scheduler(100)
-max_count = 100
-for i in range(max_count):
-    print(i, scheduler.sample(i/max_count))

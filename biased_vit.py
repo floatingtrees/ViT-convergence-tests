@@ -138,14 +138,13 @@ class ViT(nn.Module):
 
 
 
-    def forward(self, img, mask_constant = float('-inf')): # mask constant is what we set the mask to
+    def forward(self, img, mask_constant, device = "cuda"): # mask constant is what we set the mask to
         b, c, h, w = img.shape
         if h != self.image_height or w != self.image_width or c != self.channels:
             raise AssertionError("Height, width, or num_channels does not match")
         img = self.pre_to_patch_embedding(img)
         batch_size, sequence_length, features = img.shape
-        mask = self.generate_attention_mask(sequence_length + 1, mask_constant)
-
+        mask = self.generate_attention_mask(sequence_length + 1, mask_constant, device = device)
         x = self.to_patch_embedding(img)
         b, n, _ = x.shape
 
