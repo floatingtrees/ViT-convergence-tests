@@ -52,7 +52,6 @@ class Attention(nn.Module):
 
         qkv = self.to_qkv(x).chunk(3, dim = -1)
         q, k, v = map(lambda t: rearrange(t, 'b n (h d) -> b h n d', h = self.heads), qkv)
-
         dots = torch.matmul(q, k.transpose(-1, -2)) * self.scale
         if mask is not None:
             attn = self.attend(dots + mask)
@@ -120,8 +119,8 @@ class ViT(nn.Module):
         self.mlp_head = nn.Linear(dim, num_classes)
 
 
-    def generate_attention_mask(self, sequence_length, mask_constant, device = "cpu"):
-        mask = torch.zeros((1, sequence_length, sequence_length), device = device)
+    def generate_attention_mask(self, sequence_length, mask_constant, device = "cpu", dtype = torch.float32):
+        mask = torch.zeros((1, sequence_length, sequence_length), device = device, dtype = dtype)
         mask.fill_(mask_constant)
         indices = torch.arange(sequence_length)
         num_offset_height_patches = self.image_width // self.patch_width
@@ -138,13 +137,13 @@ class ViT(nn.Module):
 
 
 
-    def forward(self, img, mask_constant, device = "cuda"): # mask constant is what we set the mask to
+    def forward(self, img, mask_constant, device = "cuda", dtype = torch.float32): # mask constant is what we set the mask to
         b, c, h, w = img.shape
         if h != self.image_height or w != self.image_width or c != self.channels:
             raise AssertionError("Height, width, or num_channels does not match")
         img = self.pre_to_patch_embedding(img)
         batch_size, sequence_length, features = img.shape
-        mask = self.generate_attention_mask(sequence_length + 1, mask_constant, device = device)
+        mask = self.generate_attention_mask(sequence_length + 1, mask_constant, device = device, dtype = dtype)
         x = self.to_patch_embedding(img)
         b, n, _ = x.shape
 
