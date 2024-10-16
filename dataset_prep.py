@@ -22,6 +22,11 @@ class ImageNetDataset(Dataset):
             self.transform = v2.Compose([
             
             v2.Resize((224, 224)),  # Resize the image to 224x224 (standard for ImageNet)
+            v2.RandomHorizontalFlip(p=0.5),
+            v2.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)),
+            v2.RandomAffine(degrees=(30, 70), translate=(0.1, 0.3), scale=(0.5, 0.75)),
+            v2.RandomPerspective(distortion_scale=0.5, p=0.5),
+            v2.RandomRotation(degrees=(0, 180)),
             v2.ToImage(), v2.ToDtype(dtype, scale=True)  # Convert the image to a PyTorch tensor
             ])
         self.normalization = v2.Compose([v2.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
@@ -68,7 +73,7 @@ class ValidationImageNetDataset(Dataset):
         datapoint = self.hfds["validation"][index]
         pil_image = datapoint["image"]
         pil_image = pil_image.convert("RGB")
-
+        
         y_number = datapoint["label"] # this is a single number ie. 539
         x_tensor = self.transform(pil_image).to(self.dtype)
 
@@ -77,3 +82,6 @@ class ValidationImageNetDataset(Dataset):
         y_vector = torch.zeros((self.num_classes), dtype = self.dtype)
         y_vector[y_number] = 1 # set the corresponding position to 1
         return x_tensor, y_vector
+
+'''x = ValidationImageNetDataset(1000)
+x[0]'''

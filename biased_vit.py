@@ -76,7 +76,7 @@ class Transformer(nn.Module):
 
     def forward(self, x, mask):
         for i, (attn, ff) in enumerate(self.layers):
-            if i == len(self.layers) - 1:
+            if i <= 1:
                 mask = None
             x = attn(x, mask = mask) + x
             x = ff(x) + x
@@ -133,11 +133,11 @@ class ViT(nn.Module):
         mask[0, indices[:-num_offset_height_patches] + num_offset_height_patches, indices[:-num_offset_height_patches]] = 0 # attend to the bottom token
         mask[0, indices[:-num_offset_height_patches + 1] + num_offset_height_patches - 1, indices[:-num_offset_height_patches + 1]] = 0 # bottom left
         mask[0, indices[:-num_offset_height_patches - 1] + num_offset_height_patches + 1, indices[:-num_offset_height_patches - 1]] = 0 # bottom right
-        return mask
+        return mask.detach()
 
 
 
-    def forward(self, img, mask_constant, device = "cuda", dtype = torch.float32): # mask constant is what we set the mask to
+    def forward(self, img, mask_constant = 0, device = "cpu", dtype = torch.float32): # mask constant is what we set the mask to
         b, c, h, w = img.shape
         if h != self.image_height or w != self.image_width or c != self.channels:
             raise AssertionError("Height, width, or num_channels does not match")
