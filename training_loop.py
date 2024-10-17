@@ -1,21 +1,22 @@
 from biased_vit import ViT
 import torch
-import torchvision.transforms as transforms
+from torchvision.transforms import v2 
 from PIL import Image
 from scheduler import Scheduler
 import time
 from dataset_prep import ImageNetDataset, ValidationImageNetDataset
 from torch.utils.data import DataLoader
 import sys
+from torch.optim.lr_scheduler import LambdaLR
 
 model = ViT(
     image_size = (224, 224),
     patch_size = 14,
     num_classes = 1000,
-    dim = 1024,
+    dim = 512,
     depth = 6,
     heads = 8,
-    mlp_dim = 1024,
+    mlp_dim = 512,
     dropout = 0.0,
     emb_dropout = 0.0
 )
@@ -36,13 +37,19 @@ validation_dataloader = DataLoader(validation_dataset, batch_size = batch_size, 
 opacity_scheduler = Scheduler(100)
 model.to(device).to(torch.bfloat16)
 num_epochs = 100
-optimizer = torch.optim.AdamW(model.parameters())
-#checkpoint = torch.load("model_and_optimizer_obscured390.pth")
+optimizer = torch.optim.AdamW(model.parameters(), lr = 0.00025, weight_decay = 0.03)
+warmup_epochs = 5
+def lr_lambda(epoch):
+    if epoch < warmup_epochs:
+        return (float(epoch) + 1) / (float(warmup_epochs) + 1)
+    else:
+        return 1
+#checkpoint = torch.load("model_and_optimizer_standard97.pth")
 #model.load_state_dict(checkpoint["model_state_dict"])
 
 
 #optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
-
+scheduler = LambdaLR(optimizer, lr_lambda = lr_lambda)
 
 
 def compute_top1_accuracy(predictions, targets):
@@ -73,8 +80,55 @@ loss_fn = torch.nn.CrossEntropyLoss()
 total_training_steps = len(dataset) * num_epochs
 running_losses = []
 start = time.perf_counter()
-for i in range(num_epochs):
+
+
+augmentation_transform = v2.Compose([
+            v2.RandomHorizontalFlip(p=0.5),
+            v2.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)),
+            v2.RandomAffine(degrees=(30, 70), translate=(0.1, 0.3), scale=(0.5, 0.75)),
+            v2.RandomPerspective(distortion_scale=0.5, p=0.5),
+            v2.RandomRotation(degrees=(0, 180)),
+            v2.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+            ])
+
+
+
+
+for epoch in range(num_epochs):
     num_preprocessed_batches = i * len(dataset)
+    
+    #print(time.perf_counter() - start)
+
+    for j, batch in enumerate(dataloader):
+        optimizer.zero_grad()
+        opacity = 0#opacity_scheduler.sample((num_preprocessed_batches + j * batch_size) / total_training_steps)
+        #with open("opacities.txt", 'a') as file:
+        #    file.write(f'{opacity}\n')
+        x, y = batch
+        x = x.to(device)
+        y = y.to(device)
+        x = augmentation_transform(x)
+        outputs = model(x, opacity, device = device, dtype = torch.bfloat16)
+        loss = loss_fn(outputs, y)
+        loss.backward()
+        clip_value = 1.0
+        torch.nn.utils.clip_grad_norm_(model.parameters(), clip_value)
+        optimizer.step()
+        
+        
+        running_losses.append(loss.item())
+        if j % 250 == 0:
+            last_items = running_losses[-1000:] if len(running_losses) >= 1000 else running_losses
+            mean_last_items = sum(last_items) / len(last_items)
+            print(mean_last_items, loss.item())
+            sys.stdout.flush()
+    scheduler.step()
+    print(optimizer.param_groups[0]['lr'])
+    save_path = f"model_and_optimizer_low_learning_rate{epoch}.pth"
+    torch.save({
+        'model_state_dict': model.state_dict(),
+        'optimizer_state_dict': optimizer.state_dict(),
+    }, save_path)
     with torch.no_grad():
         accuracies = []
         validation_losses = []
@@ -90,29 +144,4 @@ for i in range(num_epochs):
         mean_last_items = sum(validation_losses) / len(validation_losses)
         print("VALIDATION LOSS: ", mean_last_items)
         print("VALIDATION ACCURACY", sum(accuracies) / len(accuracies))
-    #print(time.perf_counter() - start)
-
-    for j, batch in enumerate(dataloader):
-        optimizer.zero_grad()
-        opacity = 0#opacity_scheduler.sample((num_preprocessed_batches + j * batch_size) / total_training_steps)
-        #with open("opacities.txt", 'a') as file:
-        #    file.write(f'{opacity}\n')
-        x, y = batch
-        x = x.to(device)
-        y = y.to(device)
-        outputs = model(x, opacity, device = device, dtype = torch.bfloat16)
-        loss = loss_fn(outputs, y)
-        loss.backward()
-        optimizer.step()
-        running_losses.append(loss.item())
-        if j % 250 == 0:
-            last_items = running_losses[-1000:] if len(running_losses) >= 1000 else running_losses
-            mean_last_items = sum(last_items) / len(last_items)
-            print(mean_last_items, loss.item())
-            sys.stdout.flush()
-    save_path = f"model_and_optimizer_standard{i}.pth"
-    torch.save({
-        'model_state_dict': model.state_dict(),
-        'optimizer_state_dict': optimizer.state_dict(),
-    }, save_path)
     

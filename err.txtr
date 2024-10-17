@@ -1,0 +1,7 @@
+/home/floatingtrees/projects/ViT-convergence-tests/training_loop.py:129: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), clip_value)
+Traceback (most recent call last):
+  File "/home/floatingtrees/projects/ViT-convergence-tests/training_loop.py", line 132, in <module>
+    validation_losses = []
+          ^^^^^^^^^^^^
+AttributeError: 'AdamW' object has no attribute 'lr'

@@ -7,10 +7,10 @@ model = ViT(
     image_size = (224, 224),
     patch_size = 14,
     num_classes = 1000,
-    dim = 1024,
+    dim = 512,
     depth = 6,
-    heads = 16,
-    mlp_dim = 2048,
+    heads = 8,
+    mlp_dim = 512,
     dropout = 0.0,
     emb_dropout = 0.0
 )
