@@ -17,7 +17,7 @@ model = ViT(
     depth = 12,
     heads = 6,
     mlp_dim = 1536,
-    dropout = 0.05,
+    dropout = 0.03,
     emb_dropout = 0.01
 )
 
@@ -27,7 +27,7 @@ for i in model.parameters():
 print(total_params)
 device = "cuda"
 
-batch_size = 512 # 1024 works, but it doesn't make much of a difference
+batch_size = 256 # 1024 works, but it doesn't make much of a difference
 dataset = ImageNetDataset(num_classes=1000, dtype = torch.bfloat16)
 dataloader = DataLoader(dataset, batch_size = batch_size,  num_workers=31, prefetch_factor = 5, shuffle = True, pin_memory = False)
 
@@ -36,10 +36,10 @@ validation_dataloader = DataLoader(validation_dataset, batch_size = batch_size, 
 
 opacity_scheduler = Scheduler(100)
 model.to(device).to(torch.bfloat16)
-start_epoch = 27
-num_epochs = 100
-optimizer = torch.optim.AdamW(model.parameters(), lr = 0.00025, weight_decay = 0.03)
-warmup_epochs = 5
+start_epoch = 0
+num_epochs = 300
+optimizer = torch.optim.Adam(model.parameters(), lr = 0.001, betas = (0.9, 0.999),weight_decay = 0.03)
+warmup_epochs = 35
 import math
 def lr_lambda(epoch):
     if epoch < warmup_epochs:
@@ -48,9 +48,9 @@ def lr_lambda(epoch):
         return math.cos(((epoch - warmup_epochs) / (num_epochs - warmup_epochs)) * math.pi/2)
     
 
-checkpoint = torch.load("model_and_optimizer_low_learning_rate27.pth")
-model.load_state_dict(checkpoint["model_state_dict"])
-optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+#checkpoint = torch.load("model_and_optimizer_low_learning_rate27.pth")
+#model.load_state_dict(checkpoint["model_state_dict"])
+#optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
 
 scheduler = LambdaLR(optimizer, lr_lambda = lr_lambda)
 
@@ -96,7 +96,7 @@ augmentation_transform = v2.Compose([
 
 
 
-
+start = time.perf_counter()
 for epoch in range(num_epochs):
     if epoch < start_epoch:
         scheduler.step()
@@ -124,14 +124,14 @@ for epoch in range(num_epochs):
         
         
         running_losses.append(loss.item())
-        if j % 250 == 0:
+        if j % 250 == 249:
             last_items = running_losses[-1000:] if len(running_losses) >= 1000 else running_losses
             mean_last_items = sum(last_items) / len(last_items)
             print(mean_last_items, loss.item())
             sys.stdout.flush()
     scheduler.step()
     print(optimizer.param_groups[0]['lr'])
-    save_path = f"model_and_optimizer_low_learning_rate_cont{epoch}.pth"
+    save_path = f"model_and_optimizer_deep{epoch}.pth"
     torch.save({
         'model_state_dict': model.state_dict(),
         'optimizer_state_dict': optimizer.state_dict(),
