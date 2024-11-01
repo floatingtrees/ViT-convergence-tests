@@ -36,11 +36,11 @@ validation_dataloader = DataLoader(validation_dataset, batch_size = batch_size, 
 
 opacity_scheduler = Scheduler(100)
 model.to(device).to(torch.bfloat16)
-start_epoch = 22
+start_epoch = 50
 num_epochs = 100
 num_steps = math.ceil(num_epochs * len(dataset) / batch_size)
-optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001, weight_decay = 0.00)
-warmup_steps = 10000
+optimizer = torch.optim.Adam(model.parameters(), lr = 0.001, weight_decay = 0.00)
+warmup_steps = 10000 * 8
 import math
 def lr_lambda(step_number):
     if step_number < warmup_steps:
@@ -50,9 +50,9 @@ def lr_lambda(step_number):
     return lr
     
 
-#checkpoint = torch.load("model_and_optimizer_less_augmented22.pth")
-#model.load_state_dict(checkpoint["model_state_dict"])
-#optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
+checkpoint = torch.load("model_and_optimizer_less_augmented50.pth")
+model.load_state_dict(checkpoint["model_state_dict"])
+optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
 
 scheduler = LambdaLR(optimizer, lr_lambda = lr_lambda)
 
@@ -90,10 +90,10 @@ start = time.perf_counter()
 augmentation_transform = v2.Compose([
             v2.RandomHorizontalFlip(p=0.5),
             #v2.RandomSolarize(threshold=200, p=0.3),
-            #v2.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)),
+            v2.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)),
             #v2.RandomAffine(degrees=(30, 70), translate=(0.1, 0.3), scale=(0.5, 0.75)),
             #v2.RandomPerspective(distortion_scale=0.5, p=0.5),
-            #v2.RandomRotation(degrees=(0, 180)),
+            v2.RandomRotation(degrees=(0, 30)),
            
             v2.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
             ])
@@ -128,7 +128,7 @@ for epoch in range(num_epochs):
     #print(time.perf_counter() - start)
 
     for j, batch in enumerate(dataloader):
-        optimizer.zero_grad()
+        
         opacity = 0#opacity_scheduler.sample((num_preprocessed_batches + j * batch_size) / total_training_steps)
         #with open("opacities.txt", 'a') as file:
         #    file.write(f'{opacity}\n')
@@ -139,11 +139,14 @@ for epoch in range(num_epochs):
         outputs = model(x, opacity, device = device, dtype = torch.bfloat16)
         loss = loss_fn(outputs, y)
         loss.backward()
-        clip_value = 1.0
         
-
-        torch.nn.utils.clip_grad_norm_(model.parameters(), clip_value)
-        optimizer.step()
+        
+        if j % 8 == 7:
+            clip_value = 1.0
+            torch.nn.utils.clip_grad_norm_(model.parameters(), clip_value)
+            optimizer.step()
+            optimizer.zero_grad()
+            
         scheduler.step()
         
         
@@ -153,7 +156,6 @@ for epoch in range(num_epochs):
             mean_last_items = sum(last_items) / len(last_items)
             print(mean_last_items, loss.item())
             sys.stdout.flush()
-    scheduler.step()
     print(optimizer.param_groups[0]['lr'])
     save_path = f"model_and_optimizer_less_augmented{epoch}.pth"
     torch.save({

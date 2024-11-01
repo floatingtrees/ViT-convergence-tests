@@ -2,7 +2,7 @@ import torch
 from torch import nn
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
-import torchvision.transforms as transforms
+import sys
 
 # helpers
 
@@ -76,7 +76,8 @@ class Transformer(nn.Module):
 
     def forward(self, x, mask):
         for i, (attn, ff) in enumerate(self.layers):
-            if i <= 1:
+            
+            if i >= 1:
                 mask = None
             x = attn(x, mask = mask) + x
             x = ff(x) + x

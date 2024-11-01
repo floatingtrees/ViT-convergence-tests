@@ -7,12 +7,12 @@ model = ViT(
     image_size = (224, 224),
     patch_size = 14,
     num_classes = 1000,
-    dim = 384,
+    dim = 192,
     depth = 12,
     heads = 6,
-    mlp_dim = 1536,
-    dropout = 0.03,
-    emb_dropout = 0.01
+    mlp_dim = 768,
+    dropout = 0.00,
+    emb_dropout = 0.00
 )
 
 input_shape = (1, 3, 224, 224)
