@@ -1,4 +1,4 @@
-from biased_vit import ViT
+from standard_vit import ViT
 import torch
 from torchvision.transforms import v2 
 from PIL import Image
@@ -36,10 +36,10 @@ validation_dataloader = DataLoader(validation_dataset, batch_size = batch_size, 
 
 opacity_scheduler = Scheduler(100)
 model.to(device).to(torch.bfloat16)
-start_epoch = 50
+start_epoch = 0
 num_epochs = 100
 num_steps = math.ceil(num_epochs * len(dataset) / batch_size)
-optimizer = torch.optim.Adam(model.parameters(), lr = 0.001, weight_decay = 0.00)
+optimizer = torch.optim.Adam(model.parameters(), lr = 0.001, betas = (0.9, 0.999), weight_decay = 0.03)
 warmup_steps = 10000 * 8
 import math
 def lr_lambda(step_number):
@@ -90,10 +90,10 @@ start = time.perf_counter()
 augmentation_transform = v2.Compose([
             v2.RandomHorizontalFlip(p=0.5),
             #v2.RandomSolarize(threshold=200, p=0.3),
-            v2.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)),
+            #v2.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)),
             #v2.RandomAffine(degrees=(30, 70), translate=(0.1, 0.3), scale=(0.5, 0.75)),
             #v2.RandomPerspective(distortion_scale=0.5, p=0.5),
-            v2.RandomRotation(degrees=(0, 30)),
+            #v2.RandomRotation(degrees=(0, 30)),
            
             v2.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
             ])
@@ -121,8 +121,8 @@ for epoch in range(num_epochs):
             validation_losses.append(loss.item())
             accuracies.append(compute_top1_accuracy(outputs, y))
         mean_last_items = sum(validation_losses) / len(validation_losses)
-        print("VALIDATION LOSS: ", mean_last_items)
-        print("VALIDATION ACCURACY", sum(accuracies) / len(accuracies), "%")
+        print(f"VALIDATION LOSS FOR EPOCH {epoch}: ", mean_last_items)
+        print(f"VALIDATION ACCURACY: {sum(accuracies) / len(accuracies)}%")
     num_preprocessed_batches = epoch * len(dataset)
     
     #print(time.perf_counter() - start)
