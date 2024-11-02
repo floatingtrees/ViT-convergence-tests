@@ -1,181 +1,5 @@
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -194,7 +18,29 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
@@ -206,54 +52,12 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -261,12 +65,6 @@
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
@@ -278,12 +76,120 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -304,6 +210,12 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -316,78 +228,6 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -410,28 +250,8 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -446,6 +266,68 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -460,16 +342,40 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -482,16 +388,24 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -510,8 +424,16 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
@@ -520,9 +442,39 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
@@ -532,43 +484,21 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
@@ -596,30 +526,16 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
@@ -632,62 +548,14 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -702,8 +570,10 @@
   warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
@@ -713,6 +583,30 @@
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
@@ -722,7 +616,37 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
@@ -740,9 +664,7 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
   warnings.warn(str(msg))
@@ -758,9 +680,63 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
   warnings.warn(str(msg))
@@ -770,9 +746,193 @@
   warnings.warn(str(msg))
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
   warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
 /home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
   warnings.warn(str(msg))
-Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x78e9e4a2a0c0>
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
+  warnings.warn(
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
+  warnings.warn(str(msg))
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x76fef5b26020>
 Traceback (most recent call last):
   File "/home/floatingtrees/projects/venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1479, in __del__
     self._shutdown_workers()
@@ -792,47 +952,7 @@ Traceback (most recent call last):
                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 KeyboardInterrupt: 
 Traceback (most recent call last):
-  File "/home/floatingtrees/projects/ViT-convergence-tests/training_loop_bigger.py", line 149, in <module>
+  File "/home/floatingtrees/projects/ViT-convergence-tests/opacity_training.py", line 152, in <module>
     running_losses.append(loss.item())
                           ^^^^^^^^^^^
-KeyboardInterrupt
-Traceback (most recent call last):
-  File "/home/floatingtrees/projects/ViT-convergence-tests/training_loop_bigger.py", line 41, in <module>
-    num_steps = math.ceil(num_epochs * len(dataset) / batch_size)
-                ^^^^
-NameError: name 'math' is not defined
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
-  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:652: UserWarning: Metadata Warning, tag 274 had too many entries: 4, expected 1
-  warnings.warn(
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Truncated File Read
-  warnings.warn(str(msg))
-/home/floatingtrees/projects/venv/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:870: UserWarning: Corrupt EXIF data.  Expecting to read 2 bytes but only got 0. 
-  warnings.warn(str(msg))
-Process Process-46:
-Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fd48d92a0c0>
-Traceback (most recent call last):
-  File "/home/floatingtrees/projects/venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1479, in __del__
-    self._shutdown_workers()
-  File "/home/floatingtrees/projects/venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1443, in _shutdown_workers
-    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
-  File "/usr/lib/python3.11/multiprocessing/process.py", line 151, in join
-    _children.discard(self)
-KeyboardInterrupt: 
-Traceback (most recent call last):
-  File "/home/floatingtrees/projects/ViT-convergence-tests/training_loop_bigger.py", line 136, in <module>
-    x = x.to(device)
-        ^^^^^^^^^^^^
 KeyboardInterrupt

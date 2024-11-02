@@ -77,7 +77,7 @@ class Transformer(nn.Module):
     def forward(self, x, mask):
         for i, (attn, ff) in enumerate(self.layers):
             
-            if i >= 1:
+            if i >= 2:
                 mask = None
             x = attn(x, mask = mask) + x
             x = ff(x) + x

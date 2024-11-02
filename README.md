@@ -1,1 +1,3 @@
 # ViT-convergence-tests
+
+CNNs are known to learn features faster than VITs, which has primarily been attributed to their inductive spatial bais. The goal of this repository is to find out if we can speed up convergence for a VIT by adding an attention mask in early layers, which only allows the model to attend to patches by each other. As the model trains, the opacity of the mask is scaled down to 0, so this method has no additional cost at inference time. Preliminary experiments show no meaningful differences during training. 

@@ -13,3 +13,8 @@ class Scheduler:
         value = self.norm_factor * (1 - percentage_done)
         return transformation(value) * self.first_finite
 
+if __name__ == "__main__":
+    thingy = Scheduler(100)
+    count = 1000
+    for i in range(count):
+        print(i, thingy.sample(i/count))
