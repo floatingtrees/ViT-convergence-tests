@@ -36,11 +36,11 @@ validation_dataloader = DataLoader(validation_dataset, batch_size = batch_size, 
 
 opacity_scheduler = Scheduler(100)
 model.to(device).to(torch.bfloat16)
-start_epoch = 0
+start_epoch = 28
 num_epochs = 100
 num_steps = math.ceil(num_epochs * len(dataset) / batch_size)
-optimizer = torch.optim.Adam(model.parameters(), lr = 0.001, betas = (0.9, 0.999), weight_decay = 0.03)
-warmup_steps = 10000 * 8
+optimizer = torch.optim.AdamW(model.parameters(), lr = 0.001, betas = (0.9, 0.999), weight_decay = 0.1)
+warmup_steps = 10000
 import math
 def lr_lambda(step_number):
     if step_number < warmup_steps:
@@ -50,7 +50,7 @@ def lr_lambda(step_number):
     return lr
     
 
-checkpoint = torch.load("model_and_optimizer_less_augmented50.pth")
+checkpoint = torch.load("model_and_optimizer_decayed28.pth")
 model.load_state_dict(checkpoint["model_state_dict"])
 optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
 
@@ -103,8 +103,8 @@ augmentation_transform = v2.Compose([
 start = time.perf_counter()
 for epoch in range(num_epochs):
     num_preprocessed_batches = epoch * len(dataset)
-    if epoch < start_epoch:
-        for j in range((len(dataset) // batch_size )+ 1):
+    if epoch <= start_epoch:
+        for j in range((len(dataset) // (batch_size * 8))+ 1):
             scheduler.step()
         print(optimizer.param_groups[0]["lr"])
         continue
@@ -123,9 +123,10 @@ for epoch in range(num_epochs):
         mean_last_items = sum(validation_losses) / len(validation_losses)
         print(f"VALIDATION LOSS FOR EPOCH {epoch}: ", mean_last_items)
         print(f"VALIDATION ACCURACY: {sum(accuracies) / len(accuracies)}%")
+        print(f"TOTAL TIME: {round(time.perf_counter() - start)}s, {(time.perf_counter() - start) // 60} minutes")
     num_preprocessed_batches = epoch * len(dataset)
     
-    #print(time.perf_counter() - start)
+    
 
     for j, batch in enumerate(dataloader):
         
@@ -146,8 +147,7 @@ for epoch in range(num_epochs):
             torch.nn.utils.clip_grad_norm_(model.parameters(), clip_value)
             optimizer.step()
             optimizer.zero_grad()
-            
-        scheduler.step()
+            scheduler.step()
         
         
         running_losses.append(loss.item())
@@ -157,7 +157,7 @@ for epoch in range(num_epochs):
             print(mean_last_items, loss.item())
             sys.stdout.flush()
     print(optimizer.param_groups[0]['lr'])
-    save_path = f"model_and_optimizer_less_augmented{epoch}.pth"
+    save_path = f"model_and_optimizer_decayed{epoch}.pth"
     torch.save({
         'model_state_dict': model.state_dict(),
         'optimizer_state_dict': optimizer.state_dict(),
